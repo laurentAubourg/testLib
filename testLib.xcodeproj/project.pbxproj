@@ -7,24 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561A385C2620B5CC007AD27A /* libPlistData_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 561A385B2620B5CC007AD27A /* libPlistData_lib.a */; };
 		56F92226261BA1BA00390F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F92225261BA1BA00390F31 /* AppDelegate.swift */; };
 		56F92228261BA1BA00390F31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F92227261BA1BA00390F31 /* SceneDelegate.swift */; };
 		56F9222A261BA1BA00390F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F92229261BA1BA00390F31 /* ViewController.swift */; };
 		56F9222D261BA1BA00390F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F9222B261BA1BA00390F31 /* Main.storyboard */; };
 		56F9222F261BA1BB00390F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F9222E261BA1BB00390F31 /* Assets.xcassets */; };
 		56F92232261BA1BB00390F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F92230261BA1BB00390F31 /* LaunchScreen.storyboard */; };
-		56F92246261BA22700390F31 /* x86_64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 56F9223E261BA22700390F31 /* x86_64-apple-ios-simulator.swiftdoc */; };
-		56F92247261BA22700390F31 /* x86_64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 56F9223F261BA22700390F31 /* x86_64-apple-ios-simulator.swiftmodule */; };
-		56F92248261BA22700390F31 /* x86_64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 56F92240261BA22700390F31 /* x86_64.swiftdoc */; };
-		56F92249261BA22700390F31 /* x86_64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 56F92241261BA22700390F31 /* x86_64.swiftmodule */; };
-		56F9224A261BA22700390F31 /* x86_64.swiftsourceinfo in Resources */ = {isa = PBXBuildFile; fileRef = 56F92243261BA22700390F31 /* x86_64.swiftsourceinfo */; };
-		56F9224B261BA22700390F31 /* x86_64-apple-ios-simulator.swiftsourceinfo in Resources */ = {isa = PBXBuildFile; fileRef = 56F92244261BA22700390F31 /* x86_64-apple-ios-simulator.swiftsourceinfo */; };
 		56F9224F261BA67D00390F31 /* game.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56F9224E261BA67D00390F31 /* game.plist */; };
-		56F9225D261C4C7C00390F31 /* libplistData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F9225C261C4C7C00390F31 /* libplistData.a */; };
 		56F92281261C5EB200390F31 /* PlistData_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F92280261C5EB200390F31 /* PlistData_ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		561A385B2620B5CC007AD27A /* libPlistData_lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPlistData_lib.a; path = "../../../../Library/Developer/Xcode/DerivedData/PlistData_lib-bewvmwloboxbuzdtyqykkhntuwcp/Build/Products/Debug-maccatalyst/libPlistData_lib.a"; sourceTree = "<group>"; };
 		56F92222261BA1BA00390F31 /* testLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F92225261BA1BA00390F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56F92227261BA1BA00390F31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,14 +28,7 @@
 		56F9222E261BA1BB00390F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56F92231261BA1BB00390F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56F92233261BA1BB00390F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56F9223E261BA22700390F31 /* x86_64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
-		56F9223F261BA22700390F31 /* x86_64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
-		56F92240261BA22700390F31 /* x86_64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftdoc; sourceTree = "<group>"; };
-		56F92241261BA22700390F31 /* x86_64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftmodule; sourceTree = "<group>"; };
-		56F92243261BA22700390F31 /* x86_64.swiftsourceinfo */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftsourceinfo; sourceTree = "<group>"; };
-		56F92244261BA22700390F31 /* x86_64-apple-ios-simulator.swiftsourceinfo */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftsourceinfo"; sourceTree = "<group>"; };
 		56F9224E261BA67D00390F31 /* game.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = game.plist; sourceTree = "<group>"; };
-		56F9225C261C4C7C00390F31 /* libplistData.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplistData.a; sourceTree = "<group>"; };
 		56F92280261C5EB200390F31 /* PlistData_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistData_ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F9225D261C4C7C00390F31 /* libplistData.a in Frameworks */,
+				561A385C2620B5CC007AD27A /* libPlistData_lib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,32 +80,10 @@
 		56F9223B261BA22700390F31 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				56F9225C261C4C7C00390F31 /* libplistData.a */,
-				56F9223D261BA22700390F31 /* plistData.swiftmodule */,
+				561A385B2620B5CC007AD27A /* libPlistData_lib.a */,
 			);
 			path = lib;
 			sourceTree = SOURCE_ROOT;
-		};
-		56F9223D261BA22700390F31 /* plistData.swiftmodule */ = {
-			isa = PBXGroup;
-			children = (
-				56F9223E261BA22700390F31 /* x86_64-apple-ios-simulator.swiftdoc */,
-				56F9223F261BA22700390F31 /* x86_64-apple-ios-simulator.swiftmodule */,
-				56F92240261BA22700390F31 /* x86_64.swiftdoc */,
-				56F92241261BA22700390F31 /* x86_64.swiftmodule */,
-				56F92242261BA22700390F31 /* Project */,
-			);
-			path = plistData.swiftmodule;
-			sourceTree = "<group>";
-		};
-		56F92242261BA22700390F31 /* Project */ = {
-			isa = PBXGroup;
-			children = (
-				56F92243261BA22700390F31 /* x86_64.swiftsourceinfo */,
-				56F92244261BA22700390F31 /* x86_64-apple-ios-simulator.swiftsourceinfo */,
-			);
-			path = Project;
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -176,16 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F92249261BA22700390F31 /* x86_64.swiftmodule in Resources */,
-				56F92247261BA22700390F31 /* x86_64-apple-ios-simulator.swiftmodule in Resources */,
 				56F9224F261BA67D00390F31 /* game.plist in Resources */,
-				56F92248261BA22700390F31 /* x86_64.swiftdoc in Resources */,
 				56F92232261BA1BB00390F31 /* LaunchScreen.storyboard in Resources */,
 				56F9222F261BA1BB00390F31 /* Assets.xcassets in Resources */,
-				56F9224A261BA22700390F31 /* x86_64.swiftsourceinfo in Resources */,
 				56F9222D261BA1BA00390F31 /* Main.storyboard in Resources */,
-				56F9224B261BA22700390F31 /* x86_64-apple-ios-simulator.swiftsourceinfo in Resources */,
-				56F92246261BA22700390F31 /* x86_64-apple-ios-simulator.swiftdoc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,17 +6,25 @@
 //
 
 import Foundation
-import plistData
+import PlistData_lib
 
 extension PLD_class{
-    
- 
-    func getValueof(p_var:String)-> Any?{
+
+ /*
+    func getValueof(_ p_var:String)-> Any?{
         
          guard (dynamicData[p_var] != nil)else{
              return nil
         }
         return dynamicData[p_var]
+ 
+    }
+    func setValueof(_ p_var:String,_ value:AnyObject){
+        
+         guard (dynamicData[p_var] != nil)else{
+             return
+        }
+        dynamicData[p_var] = value
  
     }
     func getValueof(p_let:String)-> Any?{
@@ -27,4 +35,5 @@ extension PLD_class{
        return data[p_let] 
 
    }
+*/
 }
